@@ -33,10 +33,10 @@ docker run -it --rm \
 
 Test MapReduce in hadoop container:
 ```
-hdfs dfs -mkdir input
-hdfs dfs -put $HADOOP_HOME/etc/hadoop/*.xml input
-hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar wordcount input output
-hdfs dfs -ls output
+> hdfs dfs -mkdir input
+> hdfs dfs -put $HADOOP_HOME/etc/hadoop/*.xml input
+> hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar wordcount input output
+> hdfs dfs -ls output
 ```
 
 
