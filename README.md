@@ -14,7 +14,7 @@ docker build -t linux-base:0.1 .
 
 ### hadoop3-base
 
-To build the image, download the binary release of Hadoop from [here](https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz), unzip and save the folder **hadoop-3.2.1** under hadoop3-base, then execute:
+To build the image, download the binary release of Hadoop from [here](https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz), unzip and save the folder `hadoop-3.2.1/` under `hadoop3-base/`, then execute:
 
 ```
 docker build -t hadoop3-base .
